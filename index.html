@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/logo.ico" type="image/x-icon">
+  <title>
+    shopping cart</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Страница товаров</h1>
+  </header>
+  <main>
+    <button id="cart-btn" type="button" class="btn">
+      <span id="show-hide-cart">Показать</span> Корзину
+    </button>
+    <div id="cart-container">
+      <button class="btn" id="clear-cart-btn">Очистить Корзину</button>
+      <div id="products-container"></div>
+      <p>Общее количество товаров: <span id="total-items">0</span></p>
+      <p>Итого: <span id="subtotal">0 рублей</span></p>
+      <p>Налоги: <span id="taxes">0 рублей</span></p>
+      <p>Итого к оплате: <span id="total">0 рублей</span></p>
+    </div>
+    <div id="product-card-container"></div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
